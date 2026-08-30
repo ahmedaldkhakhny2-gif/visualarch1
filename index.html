@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visual Arch | استوديو تصميم داخلي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Tajawal:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== COVER ===== -->
+<section class="cover" id="cover">
+  <div class="cover-content">
+    <div class="mark-badge"><img src="assets/images/brand/logo.jpg" alt="Visual Arch"></div>
+    <h1 class="lat">VISUAL <span>ARCH</span></h1>
+    <div class="sub">Interior Design Studio</div>
+    <div class="tag">تصميم داخلي · هوية بصرية · تنفيذ متكامل</div>
+  </div>
+  <div class="scrolldown"><span>اسحب لأسفل</span><span class="stem"></span></div>
+</section>
+
+<!-- ===== NAV ===== -->
+<nav>
+  <a href="#cover" class="brand"><img src="assets/images/brand/logo.jpg" alt="Visual Arch"> VISUAL ARCH</a>
+  <div class="links">
+    <a href="#about">الاستوديو</a>
+    <a href="#work">أعمالنا</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#contact">تواصل</a>
+  </div>
+  <div class="quick">
+    <a href="tel:+201069707638" title="اتصال">📞</a>
+    <a href="https://wa.me/201069707638" target="_blank" rel="noopener" title="واتساب">💬</a>
+    <a href="https://www.facebook.com/share/18ZcHw3htu/" target="_blank" rel="noopener" title="فيسبوك">f</a>
+    <a href="https://www.instagram.com/visual_.arch" target="_blank" rel="noopener" title="انستجرام">◎</a>
+  </div>
+</nav>
+
+<!-- ===== ABOUT ===== -->
+<section class="about reveal" id="about">
+  <span class="eyebrow">من نحن</span>
+  <h2>نصمم مساحات تُروى قبل أن تُرى؛ حيث يلتقي <b>الخط الذهبي</b> بدفء التفاصيل اليومية.</h2>
+  <p>استوديو Visual Arch متخصص في التصميم الداخلي للمساحات السكنية والتجارية، بدءًا من الفكرة والموود بورد وحتى التنفيذ الكامل على الأرض. نؤمن أن كل مساحة لها طابعها الخاص، فنصمم حول أسلوب حياة الساكن لا حول موضة عابرة.</p>
+</section>
+
+<div class="arch-divider" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<!-- ===== WORK: CATEGORY GRID ===== -->
+<section class="work-wrap" id="work">
+  <div class="work-head reveal">
+    <h3>أعمالنا حسب نوع المساحة</h3>
+    <p>اضغط على أي قسم لعرض صور مشاريعه</p>
+  </div>
+  <div class="cat-grid" id="catGrid"></div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services reveal" id="services">
+  <div class="item">
+    <span class="n lat">01</span>
+    <h4>تصميم داخلي</h4>
+    <p>موود بورد، مخططات ثلاثية الأبعاد، واختيار خامات وألوان متكاملة.</p>
+  </div>
+  <div class="item">
+    <span class="n lat">02</span>
+    <h4>التنفيذ الكامل</h4>
+    <p>متابعة ميدانية للتنفيذ من الهيكل حتى القطعة الأخيرة من الديكور.</p>
+  </div>
+  <div class="item">
+    <span class="n lat">03</span>
+    <h4>الأثاث والإضاءة</h4>
+    <p>اختيار وتوريد قطع الأثاث والإضاءة المناسبة لهوية كل مساحة.</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact reveal" id="contact">
+  <span class="eyebrow">تواصل معنا</span>
+  <h2>لنبدأ في تصميم <span>مساحتك</span></h2>
+  <p>راسلنا عشان نتكلم عن مشروعك، ونحدد أول خطوة سوا.</p>
+  <div class="contact-links">
+    <a class="primary" href="tel:+201069707638">📞 اتصال مباشر</a>
+    <a href="https://wa.me/201069707638" target="_blank" rel="noopener">💬 واتساب</a>
+    <a href="https://www.facebook.com/share/18ZcHw3htu/" target="_blank" rel="noopener">فيسبوك</a>
+    <a href="https://www.instagram.com/visual_.arch" target="_blank" rel="noopener">انستجرام</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Visual Arch <span class="fmark">·</span> جميع الحقوق محفوظة</span>
+  <span>Interior Design Studio</span>
+</footer>
+
+<!-- ===== GALLERY VIEW (full-screen) ===== -->
+<div class="gallery-view" id="galleryView">
+  <div class="gv-bar">
+    <button class="gv-back" id="gvBack">→ رجوع</button>
+    <div class="gv-title">
+      <h3 id="gvTitle">—</h3>
+      <span id="gvSub" class="lat"></span>
+    </div>
+    <span style="width:60px"></span>
+  </div>
+  <div class="gv-grid" id="gvGrid"></div>
+</div>
+
+<!-- ===== TRANSITION OVERLAY ===== -->
+<div class="wipe" id="wipe"></div>
+<div class="wipe-label" id="wipeLabel"><span id="wipeLabelText"></span></div>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-close" id="lightboxClose">✕</div>
+  <img id="lightboxImg" src="" alt="">
+  <div class="lightbox-cap" id="lightboxCap"></div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
